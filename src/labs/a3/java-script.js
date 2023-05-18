@@ -1,3 +1,6 @@
+import VariableTypes from "./variable-types";
+import VariablesAndConstants from "./variables-and-constants";
+
 function JavaScript() {
   console.log("Hello World!");
 
@@ -115,28 +118,8 @@ function JavaScript() {
   return (
     <div>
       <h1>JavaScript</h1>
-      <h2>Variables and Constants</h2>
-      functionScoped = {functionScoped}
-      <br />
-      blockScoped = {blockScoped}
-      <br />
-      constant1 = {constant1}
-      <br />
-      <h2>Variable Types</h2>
-      numberVariable = {numberVariable}
-      <br />
-      floatingPointNumber = {floatingPointNumber}
-      <br />
-      stringVariable = {stringVariable}
-      <br />
-      booleanVariable = {booleanVariable}
-      <br />
-      isNumber = {isNumber}
-      <br />
-      isString = {isString}
-      <br />
-      isBoolean = {isBoolean}
-      <br />
+      <VariablesAndConstants />
+      <VariableTypes />
       <h2>Boolean Variables</h2>
       true1 = {true1 + ""}
       <br />
